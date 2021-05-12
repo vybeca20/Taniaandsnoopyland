@@ -1,0 +1,60 @@
+body { margin: 0;
+    text-align: center;
+     padding-top: 800px; }
+ .profile { width: 175px;
+     margin-bottom: 30px;
+      border-radius: 50%; }
+  #welcome { position: absolute;
+     height: 800px;
+      color: #FFFFFF;
+       left: 0; top: 30px;
+        bottom: 0;
+         right: 0;
+          opacity: 0.83;
+           background: linear-gradient(#9F21EBeb 0%, #f00ed2 100%);
+            display: table;
+             width: 100%; height:
+             100%;
+              z-index: 9 } 
+    h1
+   { font-size: 40px;
+     font-family: sans-serif;
+      font-weight: 300; }
+    #name { font-size: 30px;
+         line-height: 1.2; 
+         font-family: 'Cinzel Decorative', cursive; }
+     h2 { font-size: 30px; 
+        font-weight: 300;
+         line-height: 1.2;
+          font-family: monospace }
+      #bio { padding: 50px;
+         text-align: center; } 
+      .line { height: 6px;
+         background-color: #000;
+          width: 70px; margin: 8px auto; }
+       p { max-width: 450px;
+         margin: 25px auto; font-size: 17px; line-height: 1.3; }
+       .parallax-inner { display: table-cell;
+         position: relative;
+          text-align: center;
+           vertical-align: middle; }
+       .menu { list-style: none;
+        position:fixed;
+         font-family: sans-serif;
+    
+           top: 50px;
+            right: 50px;
+             z-index: 10;
+              cursor: pointer; }
+        .links { float: left;
+             color: #fff;
+              padding-top: 5px;
+               padding-left: 9px;
+                padding-right: 9px;
+                 padding-bottom: 5px;
+                  font-family:fantasy;
+                   font-size: 20px 
+                }
+         .links:hover { background-color:dodgerblue; }
+         #work { width: 100%; height: 800px; background-color: rgb(218, 19, 245); }
+         img { transition: transform .2s; } img:hover { transform: scale(0.9); }
